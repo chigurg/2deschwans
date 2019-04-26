@@ -13,12 +13,11 @@ html {
 	list-style-image: none;
 	list-style-type: none;
 }
-.greyscale:hover {
+.greyscale {
 	-webkit-filter: invert(0%);
 
 }
-
-.greyscale {
+.greyscale:hover {
 	-webkit-filter: invert(100%);
 
 }
@@ -55,15 +54,26 @@ html {
 	float: right;
 	right: 8px;
 	padding-right: 8px;
-	max-height: 183px;
+	max-height: 60%;
+	min-height: 19%;
+	min-width: 0px;
+	font-variant: normal;
 }
 a:visited {
 	color: #FFFFFF;
 	text-shadow: 0px 0px;
 	background-color: #000000;
 }
+#bars .blackbar a {
+	font-variant: normal;
+	font-size: 36px;
+}
+
 a:link {
 	color: #FFFFFF;
+}
+a:hover {
+	color: #55C7FF;
 }
 
 #wrapper #main {
@@ -79,16 +89,13 @@ a:link {
 	padding-right: 0px;
 	text-align: left;
 }
-a:hover {
-	color: #55C7FF;
-}
 #navigation ul .blackbar {
 	background-color: #000000;
-	max-width: 164px;
-	min-height: 20px;
+	max-width: 20%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
 	margin-top: 5px;
+	min-height: 23px;
 }
