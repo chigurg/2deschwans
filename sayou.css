@@ -1,0 +1,16 @@
+@charset "utf-8";
+#wrapper {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#wrapper table {
+	text-align: center;
+	background-image: url(images/sayou/ussr.jpg);
+	color: #68FFC4;
+	font-weight: lighter;
+	font-size: large;
+	text-shadow: 1px 2px 1px #000000;
+}
+body  {
+	background-image: url(images/sayou/stalin.jpg);
+}
